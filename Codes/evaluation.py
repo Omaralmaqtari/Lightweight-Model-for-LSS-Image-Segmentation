@@ -19,7 +19,7 @@ class Evaluation(object):
         self.Pr = 0. 	# Precision
         self.F1 = 0.    # F1-score
         self.IoU = 0.   # Intersection over Union (Jaccard Index)
-        self.Dc = 0.
+        self.Dc = 0.    # Dice coefficient
         self.length = 0
         
     @torch.no_grad()
